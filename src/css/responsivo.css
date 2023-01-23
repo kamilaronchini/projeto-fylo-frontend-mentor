@@ -1,0 +1,217 @@
+@media (max-width: 1100px) {
+    .container .footer {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 945px) {
+
+    .container .introduction .img-text h2,
+    .container .productivity .productivity-text h2,
+    .container .get-started .get-started-info h2 {
+        font-size: 30px;
+    }
+
+    .container .introduction .mobile-bg p,
+    .container .productivity .productivity-text p,
+    .container .productivity .productivity-text .button,
+    .container .testimonials .profile,
+    .container .get-started .get-started-info p {
+        font-size: 14px;
+    }
+
+    .container .introduction .mobile-bg .button {
+        padding: 13px 90px;
+    }
+
+    .container .information ul {
+        gap: 100px;
+    }
+
+    .container .productivity .productivity-button {
+        max-width: 160px;
+    }
+
+    .container .get-started .get-started-button .input-e-message .input {
+        padding: 10px 20px;
+    }
+
+    .container .get-started .get-started-button .button {
+        padding: 2% 3%;
+        font-size: 12px;
+    }
+
+}
+
+@media (max-width: 690px) {
+    .container .header {
+        padding: 35px 35px 70px;
+    }
+
+    .container .header .navigation .nav-list {
+        gap: 20px;
+        font-size: 14px;
+    }
+
+    .container .introduction .img-text img,
+    .container .productivity .image-side {
+        width: 80%;
+    }
+
+    .container .introduction .img-text h2,
+    .container .productivity .productivity-text h2,
+    .container .get-started .get-started-info h2 {
+        font-size: 25px;
+    }
+
+    .container .introduction .mobile-bg p {
+        font-size: 14px;
+    }
+
+    .container .information ul {
+        padding: 15px;
+    }
+
+    .container .productivity {
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    .container .testimonials {
+        flex-direction: column;
+    }
+
+    .container .testimonials .profile {
+        width: 70%;
+    }
+
+    .container .get-started .get-started-info {
+        width: 80%;
+    }
+
+    .container .get-started .get-started-info p {
+        width: 100%;
+    }
+
+    .container .get-started .get-started-info .get-started-button {
+        flex-direction: column;
+    }
+
+    .container .get-started .get-started-button .input-e-message {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .container .get-started .get-started-button .input-e-message .input {
+        width: 100%;
+    }
+
+    .container .get-started .get-started-info .get-started-button .input-e-message .message-on {
+        margin-top: 35px;
+        font-size: 10px;
+    }
+
+    .container .get-started .get-started-button .button {
+        padding: 3% 7%;
+    }
+
+    .container .footer {
+        padding: 250px 0px 35px 20px;
+    }
+
+    .container .footer .footer-nav {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .container .footer .social-media {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 420px) {
+    .container .header {
+        padding: 35px;
+    }
+
+    .container .logo {
+        width: 25%;
+        height: 5%;
+    }
+
+    .container .header .navigation .nav-list {
+        gap: 20px;
+        font-size: 12px;
+    }
+
+    .container .introduction .img-text, .introduction
+    .mobile-bg {
+        padding-left: 30px;
+        padding-right: 40px;
+    }
+
+    .container .introduction .img-text img,
+    .container .productivity .image-side {
+        width: 100%;
+    }
+
+    .container .introduction .img-text h2,
+    .container .productivity .productivity-text h2,
+    .container .get-started .get-started-info h2 {
+        font-size: 22px;
+    }
+
+    .container .information ul li {
+        max-width: 90%;
+    }
+
+    .container .get-started .get-started-info {
+        width: 90%;
+        padding: 40px;
+    }
+
+    .container .get-started .get-started-info h2 {
+        font-size: 18px;
+    }
+
+    .container .get-started .get-started-info p {
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .container .get-started .get-started-button .input-e-message {
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .container .get-started .get-started-info .get-started-button .input-e-message .message-on {
+        margin-top: 65px;
+        font-size: 10px;
+    }
+
+    .container .get-started .get-started-button .button {
+        padding: 5% 25%;
+    }
+
+    .footer .logo {
+        width: 50%;
+    }
+
+    .container .footer .footer-nav .location p {
+        width: 300px;
+    }
+}
+
+@media (max-width: 375px) {
+
+    .container .introduction {
+        background-image: url('../images/bg-curvy-mobile.svg');
+        background-position-x: center;
+        background-position-y: 185px;
+    }
+
+    .container .introduction .mobile-bg {
+        background-color: var(--fundoprincipal);
+    }
+}
